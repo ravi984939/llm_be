@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext", // ✅ Change this to "NodeNext"
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "outDir": "dist",                    // ✅ Ensures TypeScript compiles files to a separate folder
+    "rootDir": "src",
+    "noEmit": true,
+  }
+}
